@@ -116,3 +116,17 @@ def list_home_town_items():
 print('Exercise 5:', list_home_town_items())
 
 print('------------------------------------')
+
+# Exercise 6: Celebrate Students
+#
+# Using the list of students and a list comprehension, assign to a variable named awesome_students a new list containing strings.
+# For example: ["Tina is awesome!", "Fred is awesome!", "Wilma is awesome!"]
+
+def create_awesome_students():
+    students = ['Ali', 'Jojo', 'Momo', 'Fofo', 'Koko', 'Lolo', 'Abu Jojo']
+    awesome_students = [f"{student} is awesome!" for student in students]
+
+    return awesome_students
+
+# Call the function and print the result
+print('Exercise 6:', create_awesome_students())
